@@ -1,0 +1,41 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+Python 3.6.8
+/home4/s3940403/venvs/my_env/bin/python3
+[nltk_data] Downloading package punkt to /home4/s3940403/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Final accuracy: 0.6817653890824622
+Classification Report:
+              precision    recall  f1-score   support
+
+         OFF       0.73      0.88      0.80       621
+         NOT       0.35      0.17      0.23       240
+
+    accuracy                           0.68       861
+   macro avg       0.54      0.52      0.51       861
+weighted avg       0.63      0.68      0.64       861
+
+Confusion Matrix:
+[[547  74]
+ [200  40]]
+
+###############################################################################
+Hábrók Cluster
+Job 5954606 for user s3940403
+Finished at: Sat Nov  4 09:51:15 CET 2023
+
+Job details:
+============
+
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

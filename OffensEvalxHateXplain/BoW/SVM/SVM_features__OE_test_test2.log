@@ -1,0 +1,62 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+Python 3.6.8
+/home4/s3940403/venvs/my_env/bin/python3
+[nltk_data] Downloading package punkt to /home4/s3940403/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Final accuracy: 0.7222777222777222
+Classification Report:
+              precision    recall  f1-score   support
+
+         OFF       0.76      0.84      0.80       649
+         NOT       0.63      0.51      0.56       352
+
+    accuracy                           0.72      1001
+   macro avg       0.69      0.67      0.68      1001
+weighted avg       0.71      0.72      0.71      1001
+
+Confusion Matrix:
+[[545 104]
+ [174 178]]
+
+###############################################################################
+Hábrók Cluster
+Job 5955828 for user s3940403
+Finished at: Sat Nov  4 12:47:45 CET 2023
+
+Job details:
+============
+
+Job ID              : 5955828
+Name                : SVM_features_dev
+User                : s3940403
+Partition           : gpumedium
+Nodes               : v100gpu28
+Number of Nodes     : 1
+Cores               : 8
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2023-11-04T12:46:29
+Start               : 2023-11-04T12:46:32
+End                 : 2023-11-04T12:47:46
+Reserved walltime   : 06:00:00
+Used walltime       : 00:01:14
+Used CPU time       : 00:01:10 (efficiency: 11.94%)
+% User (Computation): 97.47%
+% System (I/O)      :  2.53%
+Mem reserved        : 64G
+Max Mem (Node/step) : 192.25M (v100gpu28, per node)
+Full Max Mem usage  : 192.25M
+Total Disk Read     : 6.25M
+Total Disk Write    : 118.55K
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
