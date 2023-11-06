@@ -1,0 +1,62 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) 2023.01   2) StdEnv
+Python 3.6.8
+/home4/s3940403/venvs/my_env/bin/python3
+[nltk_data] Downloading package punkt to /home4/s3940403/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Final accuracy: 0.7324955116696589
+Classification Report:
+              precision    recall  f1-score   support
+
+         OFF       0.71      0.58      0.63      1125
+         NOT       0.74      0.84      0.79      1660
+
+    accuracy                           0.73      2785
+   macro avg       0.73      0.71      0.71      2785
+weighted avg       0.73      0.73      0.73      2785
+
+Confusion Matrix:
+[[ 648  477]
+ [ 268 1392]]
+
+###############################################################################
+Hábrók Cluster
+Job 5954593 for user s3940403
+Finished at: Sat Nov  4 09:36:49 CET 2023
+
+Job details:
+============
+
+Job ID              : 5954593
+Name                : Random_forest_features_newdata_test
+User                : s3940403
+Partition           : gpumedium
+Nodes               : v100gpu17
+Number of Nodes     : 1
+Cores               : 8
+Number of Tasks     : 0
+State               : COMPLETED
+Submit              : 2023-11-04T09:33:07
+Start               : 2023-11-04T09:36:55
+End                 : 2023-11-04T09:37:24
+Reserved walltime   : 06:00:00
+Used walltime       : 00:00:29
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 64G
+Max Mem (Node/step) : 0.00  (Node unknown, N/A)
+Full Max Mem usage  : 0.00 
+Total Disk Read     : 0.00 
+Total Disk Write    : 0.00 
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
