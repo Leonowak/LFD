@@ -25,7 +25,7 @@ and can be installed using pip:
 
 and can be installed using pip:
 
-    pip install transformers
+    pip install tensorflow, numpy, transformers, scikit-learn
 
 # How to Train the Models on the Data
 ## Random Forest (RF) with Features on OffensEval dataset:
