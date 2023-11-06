@@ -21,7 +21,7 @@ and can be installed using pip:
 
 ## Pretrained language models
 
-    transformers
+    tensorflow, numpy, transformers, scikit-learn
 
 and can be installed using pip:
 
