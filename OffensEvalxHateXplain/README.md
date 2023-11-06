@@ -19,7 +19,7 @@ and can be installed using pip:
 
     pip install tensorflow numpy scikit-learn
 
-The Glove embeddings need to be downloaded at the source due to their big size. 
+Due to the file size limitations on Github of 100mb, we advise to download the necessary Twitter GloVe embeddings for running the LSTM direcetly from: https://nlp.stanford.edu/projects/glove/
 
 ## Pretrained language models
 
