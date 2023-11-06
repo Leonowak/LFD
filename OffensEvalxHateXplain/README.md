@@ -19,6 +19,8 @@ and can be installed using pip:
 
     pip install tensorflow numpy scikit-learn
 
+The Glove embeddings need to be downloaded at the source due to their big size. 
+
 ## Pretrained language models
 
     tensorflow, numpy, transformers, scikit-learn
